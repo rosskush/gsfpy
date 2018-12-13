@@ -34,7 +34,6 @@ class read_gsf():
 
 	def get_node_coords(self):
 		node_data = self.read_data[self.nvertex+3:]
-		print(node_data[0])
 
 		node_coords = {}
 		for node in range(self.nnode):
